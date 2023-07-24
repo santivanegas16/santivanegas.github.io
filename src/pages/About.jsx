@@ -18,9 +18,7 @@ export default function About() {
           <img src="/sk4.png" className="w-[120px] h-[100px] mr-4 transition hover:scale-125 " />
           </div>
         </div>
-        <div className='hidden md:flex w-full min-h-screen md:w-[35%] py-[20px]  justify-center items-center md:flex-col relative bg-cover bg-no-repeat' style={{ backgroundImage: `url(${imagenFondo})` }}>
-          <img src="/Photo1.jpeg" className="w-[350px] h-[450px] object-cover absolute left-[-30px] rounded-lg" />
-        </div>
+        <div className='hidden md:flex w-full min-h-screen md:w-[35%] py-[20px]  justify-center items-center md:flex-col relative bg-cover bg-no-repeat' style={{ backgroundImage: `url(${imagenFondo})` }}/>
       </div>
     </>
   )
